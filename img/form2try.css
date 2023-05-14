@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('./visiola\ background\ formtry.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    width: 95;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.input-box{
+    padding: 10px;
+    margin: 10px --10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    margin: 10px-20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+.sign-btn{
+    background: #1c8adb;
+}
+.facebook-btn{
+    background: #21afde;
+}
+.or{
+    width: 30px;
+    margin: 5px auto;
+}
+nav,#menuitems,li,a{
+background: transparent;
+}
+nav,#menuitems,li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+#menuitems,li, a{
+    background: transparent;
+    color: #141413;
+    text-decoration: none;
+}
+.sign-up-form{
+    width: 300px;
+    /*border: 1px solid turquoise; */
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sign-up-form form,h1, .input-box, p, span, a{
+    background: #fff;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 15px;
+}
+hr{
+    margin-top: 10px;
+}
+.sign-up-form a{
+    text-decoration: none;
+}
+.active{
+    border-bottom: 2px solid #1c8adb;
+}
